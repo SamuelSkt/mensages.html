@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat</title>
+
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="top">
+        <div id="user-info">
+          <img src="images/image-jeanette.jpg" alt="" />
+          <script src="https://unpkg.com/phosphor-icons"></script>
+          <div id="user-status">
+            <strong>jeanette costa</strong>
+            <div class="status">online</div>
+          </div>
+        </div>
+
+        <div id="close-chat">
+          <i class="ph-x-fill"></i>
+        </div>
+      </div>
+      <div id="messages">
+      <div id="last-seen">hoje 11:30</div>
+
+      <div class="messages">
+        <div class="message">
+          <div class="top">jeanette - 11:30</div>
+          <div class="body">tive uma ideia incrivel para um projeto!</div>
+        </div>
+        <div class="message you">
+          <div class="top">voce - 11:32</div>
+          <div class="body">serio? me conta mais.</div>
+        </div>
+        <div class="message">
+          <div class="top">jeanette - 11:34</div>
+          <div class="body">e se a gente fizesse um chat moderno e respasivo em apenas uma semana?
+          </div>
+        </div>
+        <div class="message you">
+          <div class="top">você - 11:36</div>
+          <div class="body"><strong>bora vamos!</strong></div>
+        </div>
+        <div class="messages">
+          <div class="message">
+            <div class="top">jeanette - 17:37</div>
+            <div class="body">como esta indo o seu projeto?</div>
+          </div>
+          <div class="message you">
+            <div class="top">voce - 17:50</div>
+            <div class="body">ja adiantei boa parte do layot.</div>
+          </div>
+          <div class="message">
+            <div class="top">jeanette - 17:53</div>
+            <div class="body">estou pensado ainda no que posso usar mas creio que va ser um pouco tarbalhoso
+            </div>
+          </div>
+          <div class="message you">
+            <div class="top">você - 18:00</div>
+            <div class="body"><strong>vai ser tarbanhoso mas nós vamos conseguir</strong></div>
+            <br>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+      <div id="bottom">
+        <div class="input-wrapper">
+          <input type="text" placeholder="digite sua mensagem">
+          <button type="submit">
+            <i class="ph-paper-plane-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
